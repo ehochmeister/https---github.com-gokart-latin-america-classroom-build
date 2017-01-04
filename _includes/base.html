@@ -1,0 +1,7 @@
+{% comment %}http://ricostacruz.com/til/relative-paths-in-jekyll.html{% endcomment %}
+{% assign base = '' %}
+{% assign depth = page.url | split: '/' | size | minus: 1 %}
+{% if    depth == 1 %}{% assign base = './_GLOBAL' %}
+{% elsif depth == 2 %}{% assign base = '../_GLOBAL' %}
+{% elsif depth == 3 %}{% assign base = '../../_GLOBAL' %}
+{% elsif depth == 4 %}{% assign base = '../../../_GLOBAL' %}{% endif %}

@@ -1,0 +1,17 @@
+name: XXXX 6201 Class Title
+primary_navigation:
+    - slug: index
+      label: Kitchen Sink
+    - slug: index
+      label: Kitchen Sink
+    - slug: index
+      label: Kitchen Sink
+    - slug: index
+      label: Kitchen Sink
+navigation:
+    - slug: overview
+      label: Overview
+    - slug: overview
+      label: Overview
+    - slug: overview
+      label: Overview

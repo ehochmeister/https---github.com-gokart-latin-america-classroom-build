@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="116px" height="116px" viewBox="0 0 116 116" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.2 (25235) - http://www.bohemiancoding.com/sketch -->
+    <title>chat copy 7</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.207852129 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path id="path-2" d="M53.3188133,107.108866 C82.7652133,107.108866 106.6362,83.2131967 106.6362,53.7379438 C106.6362,24.2612628 82.7652133,0.365593388 53.3188133,0.365593388 C23.8717,0.365593388 0,24.2612628 0,53.7379438 C0,83.2131967 23.8717,107.108866 53.3188133,107.108866 Z"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Example-Overview" sketch:type="MSArtboardGroup" transform="translate(-223.000000, -5468.000000)">
+            <g id="chat-copy-7" sketch:type="MSLayerGroup" transform="translate(228.000000, 5470.000000)">
+                <mask id="mask-3" sketch:name="Clip 2" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <use id="Clip-2" stroke="#496E8E" stroke-width="2" fill="#496E8E" filter="url(#filter-1)" sketch:type="MSShapeGroup" xlink:href="#path-2"></use>
+                <path d="M34.22502,50.9602909 C29.5541133,50.9602909 25.76988,54.7497521 25.76988,59.4210645 L25.76988,59.4210645 L25.76988,62.9456132 C25.76988,66.9957025 28.6153667,70.3767273 32.41244,71.2093091 L32.41244,71.2093091 L32.41244,76.1640992 C32.41244,77.6857388 33.2984,78.0563306 34.3776733,76.9866843 L34.3776733,76.9866843 L40.0215667,71.4056727 L48.3069333,71.4056727 C52.97356,71.4056727 56.7577933,67.6169256 56.7577933,62.9456132 L56.7577933,62.9456132 L56.7577933,59.4210645 C56.7577933,54.7497521 52.97356,50.9602909 48.3069333,50.9602909 L48.3069333,50.9602909 L34.22502,50.9602909 Z" id="Clip-5" stroke="#496E8E" stroke-width="2" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+                <path d="M51.7865733,32.5549488 C44.7588133,32.5549488 39.0628467,38.2587769 39.0628467,45.2900231 L39.0628467,50.5968397 C39.0628467,57.6288 44.7588133,63.331914 51.7865733,63.331914 L61.1968667,63.331914 L69.69338,71.7348496 C71.32192,73.3478876 72.6544267,72.7887868 72.6544267,70.4952595 L72.6544267,63.0370116 C78.3725067,61.7867107 82.65108,56.693395 82.65108,50.5968397 L82.65108,45.2900231 C82.65108,38.2587769 76.9551133,32.5549488 69.9294933,32.5549488 L51.7865733,32.5549488 Z" id="Clip-8" stroke="#496E8E" stroke-width="2" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

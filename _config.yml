@@ -1,0 +1,34 @@
+# Site settings
+title: LatAm Classroom
+organization: LatAm
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://latam-one-classroom.herokuapp.com/" # the base hostname & protocol for your site, e.g. http://yourdomain.com
+gtm_id: "GTM-XXXXXX" # Google Tag Manager ID
+
+# Build settings
+# http://www.jamesward.com/2014/09/24/jekyll-on-heroku
+gems: ['kramdown']
+markdown: kramdown
+include: ["_GLOBAL","_MASTERS_"]
+exclude: ["README.md", "Gemfile", "Gemfile.lock", "config.ru", "vendor", "Procfile", "Rakefile", "node_modules", "bower.json", "package.json", "*.php", "example-*"]
+timezone: America/Chicago
+encoding: utf-8
+
+sass:
+  load_paths: ['_sass', '_GLOBAL/assets/vendor/foundation/scss']
+  sourcemap: true
+  style: nested # https://web-design-weekly.com/2014/06/15/different-sass-output-styles/
+
+collections:
+  courses:
+    output: true
+    # permalink: /courses/:path/ # optional structure to remove .html from paths
+
+# Defaults for Courses
+defaults:
+  -
+    scope:
+      path: _courses
+      type: course
+    values:
+      layout: course
